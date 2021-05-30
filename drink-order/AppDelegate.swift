@@ -14,6 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // 設定啟動圖、畫面停止 2 秒
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
+        Thread.sleep(forTimeInterval: 2)
+        
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
+        
         return true
     }
 

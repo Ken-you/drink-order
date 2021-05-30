@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		DB1D4757265B78D70070DCB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D4756265B78D70070DCB6 /* AppDelegate.swift */; };
 		DB1D4759265B78D70070DCB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D4758265B78D70070DCB6 /* SceneDelegate.swift */; };
-		DB1D475B265B78D70070DCB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D475A265B78D70070DCB6 /* ViewController.swift */; };
 		DB1D475E265B78D70070DCB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1D475C265B78D70070DCB6 /* Main.storyboard */; };
 		DB1D4760265B78D80070DCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1D475F265B78D80070DCB6 /* Assets.xcassets */; };
 		DB1D4763265B78D80070DCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1D4761265B78D80070DCB6 /* LaunchScreen.storyboard */; };
+		DB6A0D75265CB56400FCE06E /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D74265CB56400FCE06E /* menu.swift */; };
+		DB6A0D81265CD99500FCE06E /* AdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D80265CD99500FCE06E /* AdCollectionViewCell.swift */; };
+		DB6A0D84265CDA3500FCE06E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D83265CDA3500FCE06E /* MenuViewController.swift */; };
+		DB6A0D8A265CE12D00FCE06E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D89265CE12D00FCE06E /* WelcomeViewController.swift */; };
+		DB6A0D8D265CE66000FCE06E /* page1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D8C265CE66000FCE06E /* page1TableViewController.swift */; };
+		DB6A0D90265CE78A00FCE06E /* page1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D8F265CE78A00FCE06E /* page1TableViewCell.swift */; };
+		DB6A0D95265D052600FCE06E /* page2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D94265D052600FCE06E /* page2TableViewCell.swift */; };
+		DB6A0D98265D054000FCE06E /* page2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A0D97265D054000FCE06E /* page2TableViewController.swift */; };
+		DB808823265FE7C7001B97BB /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB808822265FE7C7001B97BB /* order.swift */; };
+		DB808827265FF234001B97BB /* OrderFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB808826265FF234001B97BB /* OrderFormTableViewController.swift */; };
+		DB80882A265FF257001B97BB /* OrderFormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB808829265FF257001B97BB /* OrderFormTableViewCell.swift */; };
+		DB9CF66A265E19DC00C20BFB /* DrinkOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9CF669265E19DC00C20BFB /* DrinkOrderViewController.swift */; };
+		DB9CF672265E3D8F00C20BFB /* page3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9CF671265E3D8F00C20BFB /* page3TableViewController.swift */; };
+		DB9CF675265E3DA600C20BFB /* page3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9CF674265E3DA600C20BFB /* page3TableViewCell.swift */; };
+		DB9CF678265E3DC000C20BFB /* page4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9CF677265E3DC000C20BFB /* page4TableViewCell.swift */; };
+		DB9CF67B265E3DD300C20BFB /* page4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9CF67A265E3DD300C20BFB /* page4TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB1D4753265B78D70070DCB6 /* drink-order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drink-order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1D4756265B78D70070DCB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB1D4758265B78D70070DCB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB1D475A265B78D70070DCB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB1D475D265B78D70070DCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB1D475F265B78D80070DCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1D4762265B78D80070DCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB1D4764265B78D80070DCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6A0D74265CB56400FCE06E /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = menu.swift; path = "drink-order/menu.swift"; sourceTree = SOURCE_ROOT; };
+		DB6A0D80265CD99500FCE06E /* AdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB6A0D83265CDA3500FCE06E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DB6A0D89265CE12D00FCE06E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DB6A0D8C265CE66000FCE06E /* page1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page1TableViewController.swift; sourceTree = "<group>"; };
+		DB6A0D8F265CE78A00FCE06E /* page1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page1TableViewCell.swift; sourceTree = "<group>"; };
+		DB6A0D94265D052600FCE06E /* page2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = page2TableViewCell.swift; path = "drink-order/page2TableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		DB6A0D97265D054000FCE06E /* page2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2TableViewController.swift; sourceTree = "<group>"; };
+		DB808822265FE7C7001B97BB /* order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
+		DB808826265FF234001B97BB /* OrderFormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFormTableViewController.swift; sourceTree = "<group>"; };
+		DB808829265FF257001B97BB /* OrderFormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFormTableViewCell.swift; sourceTree = "<group>"; };
+		DB9CF669265E19DC00C20BFB /* DrinkOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOrderViewController.swift; sourceTree = "<group>"; };
+		DB9CF671265E3D8F00C20BFB /* page3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3TableViewController.swift; sourceTree = "<group>"; };
+		DB9CF674265E3DA600C20BFB /* page3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = page3TableViewCell.swift; path = "drink-order/Controller/page3TableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		DB9CF677265E3DC000C20BFB /* page4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page4TableViewCell.swift; sourceTree = "<group>"; };
+		DB9CF67A265E3DD300C20BFB /* page4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = page4TableViewController.swift; path = "drink-order/View/page4TableViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,54 @@
 		DB1D4755265B78D70070DCB6 /* drink-order */ = {
 			isa = PBXGroup;
 			children = (
-				DB1D4756265B78D70070DCB6 /* AppDelegate.swift */,
+				DB1D476D265B79290070DCB6 /* Controller */,
+				DB1D476B265B790B0070DCB6 /* Model */,
+				DB6A0D7A265CD8FC00FCE06E /* View */,
 				DB1D4758265B78D70070DCB6 /* SceneDelegate.swift */,
-				DB1D475A265B78D70070DCB6 /* ViewController.swift */,
+				DB1D4756265B78D70070DCB6 /* AppDelegate.swift */,
 				DB1D475C265B78D70070DCB6 /* Main.storyboard */,
 				DB1D475F265B78D80070DCB6 /* Assets.xcassets */,
 				DB1D4761265B78D80070DCB6 /* LaunchScreen.storyboard */,
 				DB1D4764265B78D80070DCB6 /* Info.plist */,
 			);
 			path = "drink-order";
+			sourceTree = "<group>";
+		};
+		DB1D476B265B790B0070DCB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB6A0D74265CB56400FCE06E /* menu.swift */,
+				DB808822265FE7C7001B97BB /* order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB1D476D265B79290070DCB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB808826265FF234001B97BB /* OrderFormTableViewController.swift */,
+				DB9CF67A265E3DD300C20BFB /* page4TableViewController.swift */,
+				DB9CF671265E3D8F00C20BFB /* page3TableViewController.swift */,
+				DB9CF669265E19DC00C20BFB /* DrinkOrderViewController.swift */,
+				DB6A0D97265D054000FCE06E /* page2TableViewController.swift */,
+				DB6A0D8C265CE66000FCE06E /* page1TableViewController.swift */,
+				DB6A0D89265CE12D00FCE06E /* WelcomeViewController.swift */,
+				DB6A0D83265CDA3500FCE06E /* MenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB6A0D7A265CD8FC00FCE06E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB808829265FF257001B97BB /* OrderFormTableViewCell.swift */,
+				DB9CF674265E3DA600C20BFB /* page3TableViewCell.swift */,
+				DB9CF677265E3DC000C20BFB /* page4TableViewCell.swift */,
+				DB6A0D94265D052600FCE06E /* page2TableViewCell.swift */,
+				DB6A0D8F265CE78A00FCE06E /* page1TableViewCell.swift */,
+				DB6A0D80265CD99500FCE06E /* AdCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +206,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1D475B265B78D70070DCB6 /* ViewController.swift in Sources */,
+				DB6A0D8A265CE12D00FCE06E /* WelcomeViewController.swift in Sources */,
+				DB9CF66A265E19DC00C20BFB /* DrinkOrderViewController.swift in Sources */,
+				DB808823265FE7C7001B97BB /* order.swift in Sources */,
+				DB6A0D81265CD99500FCE06E /* AdCollectionViewCell.swift in Sources */,
+				DB6A0D84265CDA3500FCE06E /* MenuViewController.swift in Sources */,
+				DB808827265FF234001B97BB /* OrderFormTableViewController.swift in Sources */,
+				DB9CF672265E3D8F00C20BFB /* page3TableViewController.swift in Sources */,
+				DB9CF678265E3DC000C20BFB /* page4TableViewCell.swift in Sources */,
+				DB80882A265FF257001B97BB /* OrderFormTableViewCell.swift in Sources */,
+				DB6A0D95265D052600FCE06E /* page2TableViewCell.swift in Sources */,
+				DB9CF67B265E3DD300C20BFB /* page4TableViewController.swift in Sources */,
+				DB6A0D75265CB56400FCE06E /* menu.swift in Sources */,
+				DB6A0D98265D054000FCE06E /* page2TableViewController.swift in Sources */,
 				DB1D4757265B78D70070DCB6 /* AppDelegate.swift in Sources */,
 				DB1D4759265B78D70070DCB6 /* SceneDelegate.swift in Sources */,
+				DB6A0D90265CE78A00FCE06E /* page1TableViewCell.swift in Sources */,
+				DB9CF675265E3DA600C20BFB /* page3TableViewCell.swift in Sources */,
+				DB6A0D8D265CE66000FCE06E /* page1TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
